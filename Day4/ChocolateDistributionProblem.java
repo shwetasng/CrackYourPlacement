@@ -13,7 +13,7 @@ class Solution
         for(int i=0;i<n-m+1;i++){
             int minElement= a.get(i);
             int maxElement= a.get(i+m-1);
-            res=Mats.min(res,maxElement-minElement);
+            res=Math.min(res,maxElement-minElement);
         }
         return res;
             
