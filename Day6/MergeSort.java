@@ -45,7 +45,7 @@ public class MergeSort {
         }
     }
     public static void main(String[] args) {
-        int [] arr={9,5,2,4,3};
+        int [] arr={9,5,2,4,3,-4,0};
         int n=arr.length;
         MergeSort obj = new MergeSort();
         obj.display(arr);
