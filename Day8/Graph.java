@@ -29,7 +29,7 @@ public class Graph {
             sb.append(v+": ");
             for(int w: adjMatrix[v]){
                 sb.append(w+" ");
-            }
+            }w
             sb.append("\n");
         }
         return sb.toString();
